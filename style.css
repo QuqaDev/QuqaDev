@@ -5,7 +5,6 @@ html {
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
     margin: 0;
     padding: 0;
-    font-weight: normal;
 }   
 
 ol, ul {
@@ -184,39 +183,6 @@ body{
 }
 
 /* ======================ADAPRTIVE VER.====================== */
-@media(max-width: 480px) {    
-    body{
-        display: block;
-        background-image: 100%; 
-        width: 768px;
-    }    
-    .home__page__container{
-        display: flex;
-        align-items: center;
-        justify-content: flex-start;
-        flex-direction: column;
-        font-family: 'Poppins', sans-serif;
-        font-size: 18px;
-        color: #333;
-        font-size: 20px;
-        font-weight: 300;
-        width: 650px;
-        height: 1100px;
-    }
-    .home__page__text__container{
-        padding: 0 100px;
-        margin-top: 60px;
-        width: 550px;
-    }
-    .home__page__text{
-        width: 550px;
-    }
-    
-    .home__page__image{
-        height: 300px;
-        margin-top: 60px;
-    }
-    }
 
 
 @media(max-width: 768px) {    
@@ -253,3 +219,46 @@ body{
 }
 }
 
+@media (max-width: 480px){
+.home__page__container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #333;
+    font-size: 23px;
+    font-weight: 300;
+    width: 670px;
+    height: 1200px;
+}
+.home__page__text__container{
+        padding: 0 100px;
+        margin-top: 60px;
+}
+    
+.home__page__image{
+        height: 300px;
+        margin-top: 60px;
+}
+.header__menu__container{
+    margin-top: 40px;
+}
+.header__menu{
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.header__menu__link{
+    font-size: 32px;
+}
+.home__page__text{
+    padding-bottom: 20px;
+}
+.icon__footer{
+    
+}
+.footer__icon__container{
+    gap: 65px;
+}
+}
